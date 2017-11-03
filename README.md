@@ -50,7 +50,7 @@ Match User passh
     #ChrootDirectory /home/passh
     # Forcing command makes no sense here, really
     #ForceCommand /usr/local/bin/ssh2passh.bash
-    PermitTTY yes
+    PermitTTY no
     X11Forwarding no
     PermitUserRC no
     AllowAgentForwarding no
